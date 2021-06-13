@@ -7,21 +7,14 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <base href="{{ site.url }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    {% include header-scripts.html %}
-
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    {% include header-scripts.html %} 
+    {% include google-analytics.html %}
 </head>
 
 <body>
 
-    {% include header.html %}
-
-    {{ content }}
-
-    {% include footer.html %}
-
-    {% include scripts.html %}
+    {% include header.html %} {{ content }} {% include footer.html %} {% include scripts.html %}
 
 </body>
 
