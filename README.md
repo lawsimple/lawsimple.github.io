@@ -1,1 +1,0 @@
-# lawsimple.github.io
