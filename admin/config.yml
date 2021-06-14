@@ -2,6 +2,7 @@ backend:
   name: github
   repo: lawsimple/lawsimple.github.io
   branch: master
+  open_authoring: true
 
 # This line should *not* be indented
 publish_mode: editorial_workflow
