@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: lawsimple/lawsimple.github.io
+  #name: git-gateway
+  #branch: master
+
+media_folder: "img/uploads"
+
+collections:
+  - name: "workflow_settings"
+    label: "Workflow Settings"
+    files:
+      - label: "Website settings"
+        name: "home"
+        file: "_data/home.yml"
+        fields:
+          - label: "Home Title"
+            name: "home_title"
+            widget: "string"
