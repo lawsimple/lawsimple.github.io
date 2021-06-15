@@ -6,7 +6,7 @@ phone: +91 XXXXX XXXXX
 address: Whitefield, Bangalore India
 description: "Ignorance of the law is no excuse."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lawsimple.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. http://example.com
 # Add your google-analytics ID here to activate google analytics
 google_analytics: G-D4742KNMF3 # out your google-analytics code
 contact_form_action: https://formspree.io/f/xvodrkzl
