@@ -1,9 +1,11 @@
 backend:
-  name: github
-  repo: lawsimple/lawsimple.github.io
-  #name: git-gateway
-  #branch: master
+  name: git-gateway
+  branch: master
+  identity_url: "https://lawsimple.github.io/.netlify/identity"
+  gateway_url: "https://lawsimple.github.io/.netlify/git"
+  squash_merges: true
 
+#publish_mode: editorial_workflow
 media_folder: "img/uploads"
 
 collections:
