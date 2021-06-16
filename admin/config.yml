@@ -38,5 +38,5 @@ collections:
       - { label: 'Author', name: 'author', widget: 'string' }
       - { label: 'Post Image', name: 'image', widget: 'image' }
       - { label: 'Lead', name: 'lead', widget: 'string' }
-      - { label: 'Category', name: 'category', widget: 'select', options: ['Healthcare','Automobile','General'] }
+      - { label: 'Category', name: 'category', widget: 'select', options: ['Healthcare','Automobile','General'], default: ['General'] }
       - { label: 'Body', name: 'body', widget: 'markdown' }
