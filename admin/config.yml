@@ -14,8 +14,8 @@ collections:
         name: "home_page"
         file: "_data/home.yml"
         fields:
-          - label: "homepage_slider"
-            name: "Homepage Slider"
+          - label: "Homepage_Slider"
+            name: "homepage_slider"
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string" }
