@@ -23,6 +23,21 @@ collections:
               - { label: 'Description', name: 'description', widget: 'markdown' }
               - { label: 'Background Image', name: 'background_image', widget: 'image' }
 
+      - label: 'Subscribe Form'
+        name: 'subscribe_form'
+        file: '_data/home.yml'
+        fields:
+          - label: 'Subscribe Form'
+            name: 'subscribe_form_content'
+            widget: 'object'
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Sub Title', name: 'subtitle', widget: 'string' }
+              - { label: 'Placeholder', name: 'placeholder', widget: 'string' }
+              - { label: 'Button', name: 'button', widget: 'string' }
+              - { label: 'Background Image', name: 'background_image', widget: 'image' }
+
+
   - name: 'blog_posts'
     label: 'Blog Posts'
     folder: '_posts/'
