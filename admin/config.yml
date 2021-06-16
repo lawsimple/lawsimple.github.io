@@ -39,9 +39,6 @@ collections:
       - { label: 'Post Image', name: 'image', widget: 'image' }
       - { label: 'Lead', name: 'lead', widget: 'string' }
       - { label: 'Category', name: 'category', widget: 'select', 
-            options: 
-                - { label: "Chicago", value: "ORD" }
-                - { label: "Paris", value: "CDG" }
-                - { label: "Tokyo", value: "HND" } 
+            options: ['Healthcare','Automobile','General'] 
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
