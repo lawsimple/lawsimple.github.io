@@ -22,9 +22,13 @@ collections:
               - { label: 'Sub Title', name: 'subtitle', widget: 'string' }
               - { label: 'Description', name: 'description', widget: 'markdown' }
               - { label: 'Background Image', name: 'background_image', widget: 'image' }
+
+      - label: 'Subscribe Form'
+        name: 'subscribe_form'
+        file: '_data/home.yml'
         fields:
           - label: 'Subscribe Form'
-            name: 'subscribe_form'
+            name: 'subscribe_form_fields'
             widget: 'object'
             fields:
               - { label: 'Title', name: 'title', widget: 'string' }
