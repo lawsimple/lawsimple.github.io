@@ -39,9 +39,9 @@ collections:
       - { label: 'Post Image', name: 'image', widget: 'image' }
       - { label: 'Lead', name: 'lead', widget: 'string' }
       - { label: 'Category', name: 'category', widget: 'select',
-          options:
-            - { label: "Healthcare", value: "healthcare" }
-            - { label: "Automobile", value: "automobile" }
-            - { label: "General", value: "general" }
+            options:
+              - { label: 'Healthcare', value: 'healthcare' }
+              - { label: 'Automobile', value: 'automobile' }
+              - { label: 'General', value: 'general' }
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
