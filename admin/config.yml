@@ -22,8 +22,6 @@ collections:
               - { label: 'Sub Title', name: 'subtitle', widget: 'string' }
               - { label: 'Description', name: 'description', widget: 'markdown' }
               - { label: 'Background Image', name: 'background_image', widget: 'image' }
-
-
       - label: 'Subscribe Form'
         name: 'Subscribe'
         file: '_data/home.yml'
