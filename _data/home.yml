@@ -1,6 +1,13 @@
 homepage_slider:
-  title: Law Simple!
+  title: Law Simple
   subtitle: Ignorance of the law is no excuse.
   description: We love the Web and the work we do.We work closely with our </br>
     clients to deliver the best possible solutions for their needs
   background_image: ../img/slider-bg.jpg
+
+subscribe_form:
+  title: Subscribe to receive new posts
+  subtitle: We don't share your email address.
+  placeholder: Your Email Address
+  button: Subscribe
+  background_image: ../img/call-to-action-bg.jpg
