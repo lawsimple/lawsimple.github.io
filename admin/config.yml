@@ -7,13 +7,16 @@ backend:
 media_folder: "img/uploads"
 
 collections:
-  - name: "workflow_settings"
-    label: "Workflow Settings"
+  - name: "Pages"
+    label: "pages"
     files:
-      - label: "Website settings"
+      - label: "Home Page"
         name: "home"
         file: "_data/home.yml"
         fields:
-          - label: "Home Title"
-            name: "home_title"
-            widget: "string"
+          - label: 'homepage-slider'
+            name: 'Home Slider'
+            widget: 'object'
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'string' }
