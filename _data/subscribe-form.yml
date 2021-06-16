@@ -1,0 +1,6 @@
+subscribe_form:
+  title: Subscribe to receive new posts
+  subtitle: We don't share your email address.
+  placeholder: Your Email Address
+  button: Subscribe
+  background_image: ../img/call-to-action-bg.jpg
