@@ -1,0 +1,59 @@
+backend:
+  name: git-gateway
+  branch: master
+
+
+#publish_mode: editorial_workflow
+media_folder: "img/uploads"
+
+collections:
+  - name: 'Pages'
+    label: 'Pages'
+    files:
+      - label: 'Home Page'
+        name: 'home_page'
+        file: '_data/home.yml'
+        fields:
+          - label: 'Homepage Slider'
+            name: 'homepage_slider'
+            widget: 'object'
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Sub Title', name: 'subtitle', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'markdown' }
+              - { label: 'Background Image', name: 'background_image', widget: 'image' }
+      - label: 'Subscribe Form'
+        name: 'subscribe_form_field'
+        file: '_data/subscribe-form.yml'
+        fields:
+          - label: 'Subscribe Form'
+            name: 'subscribe_form'
+            widget: 'object'
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Sub Title', name: 'subtitle', widget: 'string' }
+              - { label: 'Placeholder', name: 'placeholder', widget: 'string' }
+              - { label: 'Button', name: 'button', widget: 'string' }
+              - { label: 'Background Image', name: 'background_image', widget: 'image' }
+
+
+
+  - name: 'blog_posts'
+    label: 'Blog Posts'
+    folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    # editor:
+    #   preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Sub Title', name: 'subtitle', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      # - { label: 'Author', name: 'author', widget: 'string' }
+      - { label: 'Post Image', name: 'image', widget: 'image' }
+      - { label: 'Lead', name: 'lead', widget: 'string' }
+      - { label: 'Category', name: 'category', widget: 'select', 
+            options: ['Healthcare','Automobile','General'] 
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
