@@ -24,6 +24,7 @@ collections:
               - { label: 'Background Image', name: 'background_image', widget: 'image' }
       - label: 'Subscribe Form'
         name: 'subscribe_form'
+        file: '_data/home.yml'
         widget: 'object'
         fields:
           - { label: 'Title', name: 'title', widget: 'string' }
