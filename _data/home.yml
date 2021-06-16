@@ -1,5 +1,6 @@
 homepage_slider:
-  title: "Law Simple"
-  subtitle: "Ignorance of the law is no excuse."
-  description: "We love the Web and the work we do.We work closely with our </br> clients to deliver the best possible solutions for their needs"
-  background_image: "../img/slider-bg.jpg"
+  title: Law Simple!
+  subtitle: Ignorance of the law is no excuse.
+  description: We love the Web and the work we do.We work closely with our </br>
+    clients to deliver the best possible solutions for their needs
+  background_image: ../img/slider-bg.jpg
