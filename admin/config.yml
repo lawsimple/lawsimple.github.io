@@ -11,12 +11,12 @@ collections:
     label: "pages"
     files:
       - label: "Home Page"
-        name: "home"
+        name: "home_page"
         file: "_data/home.yml"
         fields:
-          - label: 'homepage-slider'
-            name: 'Home Slider'
-            widget: 'object'
+          - label: "homepage_slider"
+            name: "Homepage Slider"
+            widget: "object"
             fields:
-              - { label: 'Title', name: 'title', widget: 'string' }
-              - { label: 'Description', name: 'description', widget: 'string' }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
