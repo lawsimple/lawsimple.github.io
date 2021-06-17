@@ -109,5 +109,5 @@ collections:
                 - { label: 'Display', name: 'display', widget: 'select',
                       options: ['Show','Hide'] 
                   }
-                - { label: 'Icon', name: icon, widget: 'image' }
+                - { label: 'Icon Class', name: icon, widget: 'string' }
                 - { label: 'Link', name: 'link', widget: 'string' }
