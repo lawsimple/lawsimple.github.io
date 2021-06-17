@@ -98,7 +98,7 @@ collections:
               - { label: 'Description', name: 'description', widget: 'markdown' }
       - label: 'Our Services'
         name: 'our_services'
-        file: '_data/ourservices.yml'
+        file: '_data/services.yml'
         fields:
           - label: 'Services List'
             name: 'services_list'

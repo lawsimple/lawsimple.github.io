@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="row ">
-            {% for service in site.data.ourservices.services_list %}
+            {% for service in site.data.services.services_list %}
             {% if service.display == "Show" %}
             <div class="col-sm-6 col-md-3">
                 <a href="{{ service.link }}">
