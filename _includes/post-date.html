@@ -1,1 +1,4 @@
-<p><span class="glyphicon glyphicon-time"></span> Posted on {% if post.date %}{{ post.date | date: "%B %d, %Y" }}{% else %}{{ page.date | date: "%B %d, %Y" }}{% endif %}</p>
+<p>
+    <span class="fa fa-clock-o"></span> 
+    Posted on {% if post.date %}{{ post.date | date: "%B %d, %Y" }}{% else %}{{ page.date | date: "%B %d, %Y" }}{% endif %}
+</p>

@@ -999,6 +999,11 @@ footer .footer-manu ul li a:hover {
 
 
 /*CSS Fix*/
+#mc_embed_signup {
+    clear: left;
+    font: 14px 'Roboto', sans-serif;
+    width: 100%;
+  }
 
 @media only screen and (min-device-width: 768px) {
     .navbar-brand>img {
