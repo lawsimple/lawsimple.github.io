@@ -1,9 +1,6 @@
 
 title: LAW SIMPLE
 author: Lawsimple
-email: lawsimple.blog@gmail.com
-phone: +91 XXXXX XXXXX
-address: Whitefield, Bangalore India
 description: "Ignorance of the law is no excuse."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lawsimple.github.io" # the base hostname & protocol for your site, e.g. http://example.com

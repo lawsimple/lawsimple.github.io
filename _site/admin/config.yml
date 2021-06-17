@@ -35,6 +35,29 @@ collections:
               - { label: 'Placeholder', name: 'placeholder', widget: 'string' }
               - { label: 'Button', name: 'button', widget: 'string' }
               - { label: 'Background Image', name: 'background_image', widget: 'image' }
+      - label: 'Contact Page'
+        name: 'contact_page'
+        file: '_data/contacts.yml'
+        fields:
+          - label: 'Address'
+            name: 'address'
+            widget: 'object'
+            fields:
+              - { label: 'Street', name: 'street', widget: 'string' }
+              - { label: 'Email', name: 'email', widget: 'string' }
+              - { label: 'Phone', name: 'phone', widget: 'string' }  
+      - label: 'Social Media'
+        name: 'social_media'
+        file: '_data/social-media.yml'
+        fields:
+          - label: 'Links'
+            name: 'links'
+            widget: 'object'
+            fields:
+              - { label: 'LinkedIn', name: 'linkedin', widget: 'string' }
+              - { label: 'Twitter', name: 'twitter', widget: 'string' }
+              - { label: 'Facebook', name: 'facebook', widget: 'string' }
+              - { label: 'Instagram', name: 'instagram', widget: 'string' }   
 
 
 
@@ -57,3 +80,15 @@ collections:
             options: ['Healthcare','Automobile','General'] 
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  
+      
+  - name: 'services'
+    label: 'Services'
+    files:
+      - label: 'Content'
+        name: 'content'
+        file: '_data/ourservices.yml'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'string' }
