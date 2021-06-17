@@ -89,6 +89,7 @@ collections:
       - label: 'Service Content'
         name: 'service_content'
         file: '_data/ourservices.yml'
+        fields:
           - label: 'Content'
             name: 'content'
             widget: 'object'
