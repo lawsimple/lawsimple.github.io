@@ -86,9 +86,12 @@ collections:
   - name: 'services'
     label: 'Services'
     files:
-      - label: 'Content'
-        name: 'content'
+      - label: 'Service Content'
+        name: 'service_content'
         file: '_data/ourservices.yml'
-        fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Description', name: 'description', widget: 'string' }
+          - label: 'Content'
+            name: 'content'
+            widget: 'object'
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'string' }
