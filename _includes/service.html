@@ -8,14 +8,18 @@
             </div>
         </div>
         <div class="row ">
-            {% for service in site.data.services %}
+            {% for service in site.data.ourservices.services_list %}
+            {% if service.display == "Show" %}
             <div class="col-sm-6 col-md-3">
-                <div class="service-item">
-                    <i class="{{ service.icon }}"></i>
-                    <h4>{{ service.title }}</h4>
-                    <p>{{ service.content }}</p>
-                </div>
+                <a href="{{ service.link }}">
+                    <div class="service-item">
+                        <i class="{{ service.icon }}"></i>
+                        <h4>{{ service.title }}</h4>
+                        <p>{{ service.content }}</p>
+                    </div>
+                </a>
             </div>
+            {% endif %}
             {% endfor %}
         </div>
     </div>

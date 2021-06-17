@@ -95,4 +95,19 @@ collections:
             widget: 'object'
             fields:
               - { label: 'Title', name: 'title', widget: 'string' }
-              - { label: 'Description', name: 'description', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'markdown' }
+      - label: 'Our Services'
+        name: 'our_services'
+        file: '_data/ourservices.yml'
+        fields:
+          - label: 'Services List'
+            name: 'services_list'
+            widget: 'list'
+            fields:
+                - { label: 'Title', name: 'title', widget: 'string' }
+                - { label: 'Content', name: 'content', widget: 'string' }
+                - { label: 'Display', name: 'display', widget: 'select',
+                      options: ['Show','Hide'] 
+                  }
+                - { label: 'Icon', name: icon, widget: 'image' }
+                - { label: 'Link', name: 'link', widget: 'string' }

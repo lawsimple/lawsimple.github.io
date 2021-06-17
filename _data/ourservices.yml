@@ -1,3 +1,52 @@
 content:
   title: Our Services
   description: Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+
+services_list:
+  - icon: "icon ion-coffee"
+    title: "Branding"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    display: "Show"
+    link: "https://lawsimple.github.io/"
+
+  - icon: "ion-compass"
+    title: "Web Design"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    display: "Show"
+    link: "https://lawsimple.github.io/"
+
+  - icon: "ion-image"
+    title: "App Design"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    display: "Show"
+    link: "https://lawsimple.github.io/"
+
+  - icon: "ion-bug"
+    title: "Start Up"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    display: "Show"
+    link: "https://lawsimple.github.io/"
+
+  - icon: "ion-headphone"
+    title: "Logo Design"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    display: "Show"
+    link: "https://lawsimple.github.io/"
+
+  - icon: "ion-leaf"
+    title: "Development"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    display: "Show"
+    link: "https://lawsimple.github.io/"
+
+  - icon: "ion-planet"
+    title: "Brand Identity"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    display: "Show"
+    link: "https://lawsimple.github.io/"
+
+  - icon: "ion-earth"
+    title: "Brand Identity"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    display: "Show"
+    link: "https://lawsimple.github.io/"
