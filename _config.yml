@@ -13,11 +13,12 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+paginate: 5
+paginate_path: "/posts/page:num/"
 permalink: none
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
@@ -27,6 +28,8 @@ defaults:
 #gems: jekyll-feed
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.

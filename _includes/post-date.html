@@ -1,4 +1,8 @@
 <p>
     <span class="fa fa-clock-o"></span> 
-    Posted on {% if post.date %}{{ post.date | date: "%B %d, %Y" }}{% else %}{{ page.date | date: "%B %d, %Y" }}{% endif %}
+    Posted on {% if post.date %}
+    {{ post.date | date: "%B %d, %Y" }} &middot; {% include read_time.html content=page.content %}
+    {% else %}
+    {{ page.date | date: "%B %d, %Y" }} &middot; {% include read_time.html content=page.content %}
+    {% endif %}
 </p>

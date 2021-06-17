@@ -11,13 +11,32 @@
             {% for service in site.data.services.services_list %}
             {% if service.display == "Show" %}
             <div class="col-sm-6 col-md-3">
-                <a href="{{ service.link }}">
-                    <div class="service-item">
-                        <i class="{{ service.icon }}"></i>
-                        <h4>{{ service.title }}</h4>
-                        <p>{{ service.content }}</p>
+                <!-- <a href="{{ service.link }}"></a> -->
+                <div class="service-item" style="cursor:pointer" data-toggle="modal" data-target="#{{ service.title | remove: ' ' }}">
+                    <i class="{{ service.icon }}"></i>
+                    <h4>{{ service.title }}</h4>
+                    <p>{{ service.content }}</p>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="{{ service.title | remove: ' ' }}" tabindex="-1" role="dialog" aria-labelledby="{{ service.title | remove: ' '}}Label"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="{{ service.title | remove: ' ' }}Label">{{ service.title }}</h4>
+                            <button type="button" class="close" style="margin-top: -25px; font-size: 35px;" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <iframe src="{{ service.link }}" title="{{ service.title }}" width="100%" height="500"></iframe>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
                     </div>
-                </a>
+                </div>
             </div>
             {% endif %}
             {% endfor %}
